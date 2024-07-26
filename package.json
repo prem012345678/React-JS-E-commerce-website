@@ -1,9 +1,9 @@
 {
+  "homepage": "https://prem012345678.github.io/React-JS-E-commerce-website",
   "name": "e-commerce",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://prem012345678.github.io/React-JS-E-commerce-website",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
