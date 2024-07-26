@@ -10,7 +10,7 @@ import CategoryByProduct from './component/categoryByProduct/CategoryByProduct'
 const App = () => {
   return (
   <>
-<BrowserRouter>
+<BrowserRouter basename='/React-JS-E-commerce-website'>
 <NavBar/>
 <Routes>
 <Route path='/' element={<Products/>}/>
