@@ -1,0 +1,94 @@
+.clearBtn{
+    
+    display: block;
+    margin:0 auto;
+    padding: 10px ;
+    font-size: 16px;
+    text-transform: capitalize;
+    background-color: rgba(60, 60, 190,0.9);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+
+}
+
+.rows{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    width: auto;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.continuebtn{
+    margin-top: 50px;
+    text-align: center;
+    cursor: pointer;
+    & h2{
+        color: rgb(165, 19, 19);
+        font-size: 30px;
+        letter-spacing: 0.5px;
+        margin-bottom: 10px;
+    }
+    & .linkbtn{
+        text-decoration: none;
+        font-size: 20px;
+        text-transform: capitalize;
+       
+    }
+}
+.cartCard{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px -12px;
+}
+.images img{
+    /* border: 1px solid red;  */
+    width: 100px;
+    height: 130px;
+    padding: 10px;
+    margin-left: 10px;
+}
+.cartText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+    margin-left: 20px;
+    padding: 10px;
+
+    & .price{
+        display: flex;
+        gap: 10px;
+        font-size: 18px;
+
+        & .price1{
+font-weight: bold;
+        }
+        & .price2{
+            text-decoration: line-through;
+            color: rgb(110, 96, 96);
+
+        }
+    }
+
+    & .category{
+        font-weight: 600;
+        font-size: 17px;
+        text-transform: capitalize;
+    }
+    
+    & .title {
+        font-size: 17px;
+        letter-spacing: 0.5px;
+        text-wrap: balance;
+    }
+}

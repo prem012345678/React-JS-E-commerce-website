@@ -1,0 +1,90 @@
+.nav_bar{
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(13, 13, 133);
+    color: white;
+  
+}
+header{
+    position: sticky;
+    top: 0;
+}
+.brand{
+    /* border: 1px solid red; */
+    width: 20%;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 0;
+    text-decoration: none;
+    color: white;
+
+}
+
+.searchBar{
+    width: 60%;
+
+    & input{
+        width: 60%;
+        padding: 10px;
+        font-size: 16px;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+
+    }
+}
+.cart{
+    width: 20%;
+    text-align: right;
+    font-size: 20px;
+    padding: 20px 0;
+    text-decoration: none;
+    color: white;
+    position: relative;
+
+    & span{
+        width: 20px;
+        height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        background-color: red;
+        position: absolute;
+        top: 5px; 
+        right: -10px;
+        font-size: 16px;
+        color: black;
+    
+
+       
+    }
+    & .fas{
+        
+        font-size: 25px;
+    
+    }
+}
+
+.nav_bar_wraper{
+    color: white;
+    background-color: rgb(78, 78, 207);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    & .item{
+        padding: 10px 0;
+        font-size: 18px;
+        font-weight: 500;
+        /* margin-top: 10px; */
+        text-transform: capitalize;
+        text-decoration: none;
+        color: white;
+    }
+ 
+
+}
