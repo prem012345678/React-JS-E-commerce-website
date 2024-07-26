@@ -2,7 +2,7 @@
 import React from 'react'
 import NavBar from './component/navbar/NavBar'
 import Products from './component/Product/Products'
-import {BrowserRouter, Route, Router, Routes} from 'react-router-dom'
+import {BrowserRouter, HashRouter, Route, Router, Routes} from 'react-router-dom'
 import ProductDetail from './component/productDetail/ProductDetail'
 import SearchItem from './component/searchItem/SearchItem'
 import Carts from './component/cart/Carts'
@@ -10,7 +10,7 @@ import CategoryByProduct from './component/categoryByProduct/CategoryByProduct'
 const App = () => {
   return (
   <>
-<BrowserRouter basename='/React-JS-E-commerce-website'>
+<HashRouter>
 <NavBar/>
 <Routes>
 <Route path='/' element={<Products/>}/>
@@ -19,7 +19,7 @@ const App = () => {
 <Route path='/search/:item' element={<SearchItem/>}/>
 <Route path='/carts' element={<Carts/>}/>
 </Routes>
-</BrowserRouter>
+</HashRouter>
 
   </>
   )
